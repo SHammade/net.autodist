@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: net.autodist.DAO
+Bundle-SymbolicName: net.autodist.DAO
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Export-Package: net.autodist.DAO,
+ net.autodist.DAO.database;uses:="net.autodist.DAO",
+ net.autodist.DAO.database.views
+Require-Bundle: org.junit,
+ org.h2;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

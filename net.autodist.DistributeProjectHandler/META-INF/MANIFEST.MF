@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DistributeProjectHandler
+Bundle-SymbolicName: net.autodist.DistributeProjectHandler;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: net.autodist.DistributedNature;bundle-version="1.0.0",
+ org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.ui,
+ net.autodist.AnnotationLib;bundle-version="0.1.0",
+ org.eclipse.jdt.core,
+ net.autodist.DAO;bundle-version="1.0.0",
+ net.autodist.ThriftGenExecuter,
+ net.autodist.MethodIdentifier,
+ net.autodist.ServerGenerator,
+ net.autodist.ThriftIdlGenerator,
+ net.autodist.ClientAspectGenerator,
+ net.autodist.ConfigurationHandler;bundle-version="1.0.0",
+ net.autodist.Configuration,
+ org.eclipse.jdt.ui;bundle-version="3.11.1",
+ org.eclipse.jface,
+ net.autodist.Utility
+Import-Package: net.autodist.utils

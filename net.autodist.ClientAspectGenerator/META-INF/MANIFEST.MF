@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ClientAspectGenerator
+Bundle-SymbolicName: net.autodist.ClientAspectGenerator;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ net.autodist.AnnotationLib,
+ org.eclipse.ajdt.core;bundle-version="2.2.4",
+ org.eclipse.jdt.core,
+ org.junit,
+ net.autodist.Utility,
+ net.autodist.DAO,
+ net.autodist.Configuration;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: net.autodist.clientaspectgenerator

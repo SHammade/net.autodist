@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServerGenerator
+Bundle-SymbolicName: net.autodist.ServerGenerator;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ net.autodist.DAO,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.launching;bundle-version="3.8.0",
+ net.autodist.AnnotationLib,
+ org.eclipse.text;bundle-version="3.5.400",
+ net.autodist.Utility,
+ org.eclipse.jface,
+ net.autodist.Configuration;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: net.autodist.servergenerator

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LoadProjectHandler
+Bundle-SymbolicName: net.autodist.LoadProjectHandler;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Bundle-Activator: net.autodist.loadproject.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jdt;bundle-version="3.11.1",
+ org.eclipse.jdt.core;bundle-version="3.11.1",
+ net.autodist.DistributedNature;bundle-version="1.0.0",
+ net.autodist.ConfigurationHandler,
+ net.autodist.Utility,
+ org.eclipse.osgi,
+ net.autodist.Configuration;bundle-version="1.0.0",
+ org.eclipse.core.jobs,
+ org.eclipse.equinox.app
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: net.autodist

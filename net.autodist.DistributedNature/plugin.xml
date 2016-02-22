@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+       id="net.autodist.nature.DistributedNature"
+       name="Distributed Project Nature"
+       point="org.eclipse.core.resources.natures">
+    <runtime>
+       <run
+             class="net.autodist.nature.DistributedNature">
+       </run>
+    </runtime>
+ </extension>
+   <extension
+         point="org.eclipse.ui.ide.projectNatureImages">
+      <image
+            icon="icons/icon_8x8.png"
+            id="net.autodist.nature.image"
+            natureId="net.autodist.nature.DistributedNature">
+      </image>
+   </extension>
+</plugin>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Configuration
+Bundle-SymbolicName: net.autodist.Configuration;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: net.autodist.configuration

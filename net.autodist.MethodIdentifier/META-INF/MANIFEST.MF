@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MethodIdentifier
+Bundle-SymbolicName: net.autodist.MethodIdentifier;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jdt.core;bundle-version="3.11.1",
+ org.eclipse.core.resources,
+ net.autodist.DAO,
+ net.autodist.Utility,
+ net.autodist.Configuration;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: net.autodist.annotationidentifier.parser,
+ net.autodist.methodidentifier
+

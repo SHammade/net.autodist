@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ThriftIdlGenerator
+Bundle-SymbolicName: net.autodist.ThriftIdlGenerator
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: AutoDist Tools
+Export-Package: net.autodist.thrift.gen
+Require-Bundle: net.autodist.DAO
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
